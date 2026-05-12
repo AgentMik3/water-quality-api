@@ -22,8 +22,8 @@ print("Loading models...")
 rf_model      = joblib.load('rf_model.pkl')
 xgb_model     = joblib.load('xgb_model.pkl')
 scaler        = joblib.load('scaler.pkl')
-lstm_model    = tf.keras.models.load_model('lstm_model.h5')
-cnn_lstm_model = tf.keras.models.load_model('cnn_lstm_model.h5')
+lstm_model    = tf.keras.models.load_model('lstm_model.keras')
+cnn_lstm_model = tf.keras.models.load_model('cnn_lstm_model.keras')
 
 print("✅ All models loaded successfully")
 
